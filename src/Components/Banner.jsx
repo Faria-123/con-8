@@ -8,22 +8,22 @@ const Banner = () => {
             <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
                 <div className="max-w-7xl mx-auto px-6 text-white">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
-                        Turn Ideas into Stunning AI Art
+                        Summer Essentials Store
                     </h1>
                     <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-                        Generate high-quality images from simple text prompts.
+                        A modern summer eCommerce platform where you can explore and purchase seasonal products.
                     </p>
 
                     <div className="flex gap-4">
                         <Link href="#">
                             <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
-                                Generate Now
+                                Summer Sale 50% OFF
                             </Button>
                         </Link>
 
                         <Link href="/pricing">
                             <Button variant="outline" className="text-white">
-                                View Pricing
+                                Hot Deals 🔥
                             </Button>
                         </Link>
                     </div>

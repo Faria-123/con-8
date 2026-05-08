@@ -31,7 +31,7 @@ const Footer = () => {
                                 className="dark:brightness-200"
                             />
                             <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white">
-                                pixgen
+                                SunCart
                             </h2>
                         </div>
 
@@ -134,7 +134,7 @@ const Footer = () => {
 
                 {/* Bottom */}
                 <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-                    <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} SunCart All rights reserved.</p>
 
                     <div className="flex items-center gap-6">
                         <Link
