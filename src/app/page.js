@@ -4,7 +4,7 @@ import Card from "@/Components/Card";
 import Image from "next/image";
 
 export default async function Home() {
-  const res = await fetch('https://con-8.vercel.app/data.json');
+  const res = await fetch('https://con-8.vercel.app/data2.json');
   const data = await res.json();
   console.log(data);
 
